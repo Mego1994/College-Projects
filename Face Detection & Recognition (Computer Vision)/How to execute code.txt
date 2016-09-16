@@ -1,0 +1,18 @@
+- You have folder having cropped, gray scale and face detected images (say called: "trainimages") on DESKTOP. 
+
+- You have rgb images in a folder say: "testimages"  on DESKTOP & want to face detect & crop & resize to the same dimension of images
+in "testimages" folder. 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+HOW TO RUN:
+1-  Viola_Jones_img('C:\Users\Mego\Desktop\trainimages\') : will create folder "TrainDatabase" on DESKTOP
+     Viola_Jones_img('C:\Users\Mego\Desktop\testimages\') : will create folder "TestDatabase" on DESKTOP
+
+2-  T = CreateDatabase('C:\Users\Mego\Desktop\TrainDatabase\');
+
+3-  [m, A, Eigenfaces] = EigenfaceCore(T);
+
+4-  OutputName = Recognition('C:\Users\Mego\Desktop\TestDatabase\5.jpg', m, A, Eigenfaces);
+     'C:\Users\Mego\Desktop\TestDatabase\5.jpg' :  path to tested image 
+     Recognition.m:  don't forget to change TrainDatabase path in line 61
+--------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,776 @@
+
+/*
+Template 2033 Business
+http://www.tooplate.com/view/2033-business
+*/
+
+
+* {margin: 0; padding: 0;}
+ 
+bodyy {
+ <!-- src: http://subtlepatterns.com/?p=1045 -->
+ background: url('dark_geometric.png');
+}
+ 
+#cont{
+ width: 300px;
+ overflow: hidden;
+ margin: 20px auto;
+ background: url(images/Rough-Grey-Tilable-Pattern-For-Website-Background) no-repeat;
+}
+
+/*header*/
+header {
+	width: 800px;
+	margin: 40px auto;
+}
+
+header h1 {
+	text-align: center;
+	font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
+	
+}
+
+header p {
+	font: 100 15px/1.5 Helvetica, Verdana, sans-serif;
+	text-align: justify;
+}
+
+/*photobanner*/
+
+.photobanner {
+	height: 233px;
+	width: 3550px;
+	margin-bottom: 80px;
+}
+
+.photobanner img {
+ -webkit-transition: all 0.5s ease;
+ -moz-transition: all 0.5s ease;
+ -o-transition: all 0.5s ease;
+ -ms-transition: all 0.5s ease;
+ transition: all 0.5s ease;
+}
+ 
+.photobanner img:hover {
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ -ms-transform: scale(1.1);
+ transform: scale(1.1);
+ cursor: pointer;
+ 
+ -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+ -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+ box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+
+/*keyframe animations*/
+.first {
+	-webkit-animation: bannermove 30s linear infinite;
+	   -moz-animation: bannermove 30s linear infinite;
+	    -ms-animation: bannermove 30s linear infinite;
+	     -o-animation: bannermove 30s linear infinite;
+	        animation: bannermove 30s linear infinite;
+}
+
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+
+}
+
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+ 
+
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #3a3430;
+	font-family: Helvetica, "Trebuchet MS", Arial, sans-serif;
+	font-size: 13px;
+	line-height:1.5em; 
+	background: url(images/back.jpg);
+}
+
+a, a:link, a:visited {
+	color: #2d607f;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+p { margin: 0px; padding: 0 0 10px 0; }
+img { border: none; }
+
+h1 { font-size: 40px; font-weight: bold; margin: 0 0 30px 0; padding: 5px 30px ; color: #c0c0c0; }
+h2 { font-size: 28px; font-weight: normal; margin: 0 0 30px 0; color: #ff0000; }
+h3 { font-size: 18px; margin: 0 0 20px 0; padding: 0; padding: 0; color: #ff0000; }
+h4 { font-size: 18px; font-weight: normal; margin: 0 0 20px 0; padding: 0; color: #000; }
+h5 { font-size: 16px; margin: 0 0 10px 0; padding: 0; color: #333; }
+h6 { font-size: 14px; margin: 0 0 5px 0; padding: 0;}
+h7 { font-size: 30px; font-weight: bold; margin: 0 0 30px 0; padding: 5px 900px ; color: #ffff80; }
+h8 { font-size: 40px; font-weight: bold;  margin:90px 400px ; color: #000040; }
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+.cleaner_h10 { clear: both; width:100%; height: 10px; }
+.cleaner_h20 { clear: both; width:100%; height: 20px; }
+.cleaner_h30 { clear: both; width:100%; height: 30px; }
+.cleaner_h40 { clear: both; width:100%; height: 40px; }
+.cleaner_h50 { clear: both; width:100%; height: 50px; }
+.cleaner_h60 { clear: both; width:100%; height: 60px; }
+
+.margin_r30 { margin-right: 30px; }
+.margin_b20 { margin-bottom: 20px; }
+
+.vertical_divider { background: url(images/tooplate_vertical_divider.jpg) repeat-y right;  }
+.horizon_divider {  background: url(images/tooplate_hor_divider.jpg) repeat-x bottom; }
+
+.float_l {
+	float: left;
+}
+
+.float_r {
+	float: right;
+}
+
+.image_wrapper {
+	display: inline-block;
+	padding: 8px;
+	border: 1px solid #999;
+	background: #ffffff;
+	margin-bottom: 10px;
+}
+
+.image_wrapper2 {
+	display: inline-block;
+	padding: 4px;
+	border: 1px solid #999;
+	background: #ffffff;
+	margin-bottom: 10px;
+}
+
+.fl_img {
+	float: left;
+	margin: 3px 30px 15px 0;
+}
+.fr_img {
+	float: right;
+	margin: 3px 0 15px 15px;
+}
+
+blockquote { font-style: italic; margin-left: 10px;}
+cite { font-weight: bold; }
+cite span { color: #2d607f; }
+em { color: #bf4300; }
+
+.tooplate_list {
+	margin: 20px 0;
+	padding: 0;
+	list-style: none;
+}
+
+.tooplate_list li {
+	background: transparent url(images/tooplate_list.png) no-repeat scroll 0 0px;
+	margin:0 0 10px;
+	padding:0 0 0 25px;
+	line-height: 1em;
+}
+
+.tooplate_list li a {
+	text-decoration: none;
+}
+
+.tooplate_list li a:hover {
+	text-decoration: underline;
+}
+
+.button a {
+	clear: both;
+	display: block;
+	width: 100px;
+	height: 27px;
+	padding: 5px 0 0 22px;
+	margin-top: 15px;
+	background:  #CC0066;
+	background:  url(images/tooplate_button.png) no-repeat;
+}
+
+.button a:hover {
+	background: url(images/tooplate_button_hover.png) no-repeat;
+}
+
+#tooplate_header_wrapper {
+	width: 100%;
+	background: #FFFF66;
+	height: 3px;
+}
+
+#tooplate_header {
+	width: 990px;
+	height: 200px;
+	padding: 0;
+	margin: 0 auto;
+	background: #FFFF66;
+}
+
+#tooplate_header  #site_title {
+	float: left;
+	width: 400px;
+	padding: 35px 0 0 40px;
+}
+
+#tooplate_header  #site_title h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#tooplate_header  #site_title h1 a {
+	margin: 0px;
+	padding: 0px;
+	font-size: 38px;
+	color: #000;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#tooplate_header  #site_title h1 a span {
+	display: block;
+	margin-top: 5px;
+	margin-left: 0px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#more{
+	color: red;
+	
+	
+}
+
+#header_phone_no {
+	float: right;
+	padding-right: 40px;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 60px;
+}
+
+#header_phone_no span {
+	font-size: 30px;
+	color: #ef7716;
+}
+
+/* menu */
+
+#tooplate_menu {
+	width: 100%;
+	height: 50px;
+	
+
+	background: #000000;
+	
+}
+
+#tooplate_menu #home_menu a {
+	float: left;
+	display: block;
+	width: 50px;
+	height: 46px;
+/* 	margin-right: 2awsaa\00px; */
+	background: url(images/tooplate_home.png) no-repeat;
+}
+
+#tooplate_menu #home_menu a:hover {
+	background: url(images/tooplate_home_hover.png) no-repeat;
+}
+
+#tooplate_menu ul {
+	margin: 0;
+	padding: 7px 0 0 0;
+	list-style: none;
+}
+
+#tooplate_menu ul li {
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+#tooplate_menu ul li a {
+	float: left;
+	display: block;
+	width: 60px;
+	height: 27px;
+	padding: 10px 100px 10px 0;
+	margin: 0 100px 0 0; 
+	font-size: 14px;
+	text-decoration: none;
+	color: #fff;	
+	
+	outline: none;
+	border: none;
+}
+
+#tooplate_menu ul li a:hover, #tooplate_menu ul li .current {
+	color: #fec823;
+}
+
+/* end of menu */
+
+#tooplate_middle_wrapper1 {
+	width: 100%;
+	background: url(images/zft.jpg) no-repeat;
+	height: 90px;
+padding: 30px 0px; 
+/* 	margin-right: 2awsaa\00px; */
+margin: 0 auto; 
+	font-size: 16px;
+	color:#3edbc4;
+}
+
+#tooplate_middle_wrapper5 {
+	float: left;
+	display: block;
+	width: 300px;
+	height: 117px;
+	margin-right: 2awsaa\00px;
+	background: url(images/doctor-logo-hi.png) no-repeat;
+}
+
+
+#tooplate_middle_wrapper2 {
+	width: 100%;
+	height: 180px;
+	padding: 30px 45px;
+	margin: 0 auto;
+	font-size: 20px;
+	background: url(images/zft.jpg) no-repeat;
+}
+
+#tooplate_middle {
+	width: 900px;
+	height: 100px;
+	padding: 30px 45px;
+	margin: 0 auto;
+	color: #c5dcea;
+	font-size: 20px;
+	background: url(images/zft.jpg) no-repeat;
+}
+
+#tooplate_middle h1 {
+	color: #fff;
+	font-size: 50px;
+	letter-spacing: 3px;
+	text-shadow: 1px 1px 1px #555;
+	font-weight: normal;
+	padding: 50px 0 0 0;
+}
+
+#tooplate_middle h1 span {
+	font-size: 30px;
+	color: #fec821;
+	margin-left: 30px;
+}
+
+#tooplate_middle  p {
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+
+#tooplate_middle a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#tooplate_middle a span {
+	color: #fec821;
+}
+
+#tooplate_middle a:hover {
+	color: #fec821;
+}
+
+/* main */
+
+#tooplate_main {
+	clear: both;
+	width: 1800px;
+	padding: 0px ;
+	margin: 0 auto;
+	background:#FFF;
+	color:#ff0000
+}
+
+
+#tooplate_content {
+/*  	float: right;  */
+	width: 600px;
+	color:#000;
+	padding:30px 400px;
+}
+
+.col_w270 {
+	width: 270px;
+}
+
+.col_w250 {
+	width: 250px;
+}
+
+.col_w190 {
+	width: 190px;
+	padding-right: 40px;
+}
+
+.services_section {
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+.services_section .ss_left {
+	float: left;
+	width: 80px;
+}
+
+.services_section .ss_left img {
+	width: 80px;
+	height: 80px;
+}
+
+.services_section .ss_right {
+	float: right;
+	width: 500px;
+}
+
+.price {
+	color: #000;
+	font-size: 16px;
+}
+
+.price span {
+	font-size: 20px;
+	color: #C00;
+}
+
+#tooplate_sidebar {
+	float: left;
+	width: 240px;
+}
+
+#contact_form {
+	float: left;
+	width: 400px;
+	 
+	padding: 0px;
+}
+
+#contact_form form {
+	
+	
+	margin: 0px;
+	padding: 0px;
+	/*border:1px solid #e2d1be;
+	padding: 20px 20px 10px 20px; */
+}
+
+#contact_form form .input_field {
+	width: 300px;
+	padding: 5px;
+	background: #d1d1d1;
+	border: 1px solid #b7aeae;
+	color: #333; 
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#contact_form form label {
+	display: block;
+	width: 100px;
+	font-size: 14px;	
+	margin-right: 10px;
+}
+
+#contact_form form textarea {
+	width: 388px;
+	height: 200px;
+	background: #d1d1d1;
+	border: 1px solid #b7aeae;
+	padding: 5px; 
+	color: #333; 
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#contact_form form .submit_btn {
+	margin-left: 50px;
+	width: 122px;
+	height: 32px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	margin: 10px 0;
+    padding: 5px 14px;
+	background: url(images/tooplate_button.png) no-repeat;
+}
+
+#contact_form form .submit_btn:hover {
+	background: url(images/tooplate_button_hover.png) no-repeat;
+}
+
+/* our edits*/
+
+#contact_form_patient {
+	float: left;
+	width: 400px; 
+	padding: 0px;
+	
+	
+}
+
+#contact_form_patient form {
+	margin-left: -300px;
+	padding: 0px;
+	color:#707070;
+	/*border:1px solid #e2d1be;
+	padding: 20px 20px 10px 20px; */
+}
+
+#contact_form_patient form .input_field {
+	width: 150px;
+	padding: 5px;
+	background: #d1d1d1;
+	border: 1px solid #b7aeae;
+	color: #333; 
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#contact_form_patient form label {
+	display: block;
+	width: 100px;
+	font-size: 14px;	
+	margin-right: 10px;
+	color:#707070;
+}
+
+#contact_form_patient form textarea {
+	width: 388px;
+	height: 200px;
+	background: #d1d1d1;
+	border: 1px solid #b7aeae;
+	padding: 5px; 
+	color: #333; 
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#contact_form_patient form .submit_btn {
+	margin-left: 50px;
+	width: 122px;
+	height: 32px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	margin: 10px 0;
+    padding: 5px 14px;
+	background: url(images/tooplate_button.png) no-repeat;
+}
+
+#contact_form_patient form .submit_btn:hover {
+	background: url(images/tooplate_button_hover.png) no-repeat;
+}
+
+/* end of main */
+
+/* footer */
+
+#tooplate_footer_wrapper {
+	width: 100%;
+	border-top: 1px solid #fff;
+	padding-top: 1px;
+	background: #707070; 
+}
+
+#tooplate_footer {
+	width: 900px;
+	margin: 0 auto;
+	padding: 20px 35px;
+	text-align: center;
+	color: #8ab6d1;
+}
+
+#tooplate_footer a {
+	color: #b4d8ee;
+}
+
+/* end of footer */
+
+
+section {
+  position: relative;
+  border: 1px solid #000;
+  padding-top: 37px;
+  background: #ffffff;
+}
+section.positioned {
+  position: absolute;
+  top:100px;
+  left:100px;
+  width:800px;
+  box-shadow: 0 0 15px #333;
+}
+.container {
+  overflow-y: auto;
+  height: 200px;
+}
+table {
+	
+  border-spacing: 0;
+  width:100%;
+  
+    
+}
+td  {
+	
+   border:1px solid #c0c0c0;
+  width: 100px;
+   background: transparent;
+  color: #000;
+  padding: 5px 5px;
+  height: 5px;
+  border-left:-50;  
+}
+ th {
+  border: 1px solid #c0c0c0;
+ 
+  background: transparent;
+  color: #000;
+  padding: 5px 5px;
+  height: 5px;
+  border-left:-50;  
+}
+th {
+border: 1px solid #c0c0c0;
+  height: 0;
+  line-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: #c0c0c0;
+  border: none;
+  white-space: nowrap;
+  
+}
+th div{
+  position: absolute;
+  background: transparent;
+  color: #000;
+  padding: 9px 25px;
+  top: 0;
+  margin-left: -20px;
+  
+  line-height: normal;
+  border: 1px solid #c0c0c0;
+   
+}
+th:first-child div{
+  border: none;
+}
+cite{
+  color: #000;	
+  background: transparent;
+}
+/* /* Dropdown Button */ */
+/* .dropbtn { */
+/*     background-color: #4CAF50; */
+/*     color: white; */
+/*     padding: 16px; */
+/*     font-size: 16px; */
+/*     border: none; */
+/*     cursor: pointer; */
+/* } */
+
+/* /* Dropdown button on hover & focus */ */
+/* .dropbtn:hover, .dropbtn:focus { */
+/*     background-color: #3e8e41; */
+/* } */
+
+/* /* The container <div> - needed to position the dropdown content */ */
+/* .dropdown { */
+/*     position: relative; */
+/*     display: inline-block; */
+/* } */
+
+/* /* Dropdown Content (Hidden by Default) */ */
+/* .dropdown-content { */
+/*     display: none; */
+/*     position: absolute; */
+/*     background-color: #f9f9f9; */
+/*     min-width: 160px; */
+/*     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+/* } */
+
+/* /* Links inside the dropdown */ */
+/* .dropdown-content a { */
+/*     color: black; */
+/*     padding: 12px 16px; */
+/*     text-decoration: none; */
+/*     display: block; */
+/* } */
+
+/* /* Change color of dropdown links on hover */ */
+/* .dropdown-content a:hover {background-color: #f1f1f1} */
+
+/* /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */ */
+/* .show {display:block;} */
